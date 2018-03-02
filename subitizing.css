@@ -1,0 +1,12 @@
+body {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.enterNumber {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
