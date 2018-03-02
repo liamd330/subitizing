@@ -9,13 +9,29 @@
     
     <body>
         <header><h1>Subitizing</h1></header>
-        <h3>Enter the maximum number of shapes you'd like to see.</h3>
-        <div class="enterNumber">
-        <input id="numberInput" type="number">
-        <button>Go</button>
+        
+        <div class="container">
+            
+            <div class="levers">
+                <div class="enterNumber">
+                    <h3>Number of Shapes</h3>
+                    <input id="numberInput" type="number">
+                    <h3>Milliseconds</h3>
+                    <input id="millisecondInput" type="number">
+                    <h3>Color</h3>
+                    <input id="colorInput" type="radio">Monochrome
+                    <input id="colorInput" type="radio">Color
+                    <br>
+                    <br>
+                    <button>Go</button>
+                </div>
+            </div>
+            
+            <div class="main">
+                <canvas id="canvas" height=400px width=400px></canvas>
+            </div>
         </div>
-        <canvas id="canvas" height=400px width=400px></canvas>
-
+        
         <footer>By Liam Donovan</footer>
     </body>
 </html>

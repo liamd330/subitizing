@@ -2,9 +2,8 @@ var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 
 
-//var numberOfShapes = document.getElementById("numberInput");
-var numberOfShapes = Math.floor(Math.random() * 10);
-
+// var numberOfShapes = document.getElementById("numberInput");
+var numberOfShapes = Math.ceil(Math.random() * 10);
 
 do {
     var xCoord = Math.floor(Math.random() * 350);

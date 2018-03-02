@@ -5,8 +5,35 @@ body {
     font-family: monospace;
 }
 
-.enterNumber {
-    margin-top: 2%;
-    margin-bottom: 2%;
+header {
+    text-align: center;
+    margin-bottom: 3%;
 }
 
+.enterNumber {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+footer {
+    margin-top: 3%;
+}
+
+.container {
+    width: 80%;
+    height: 50%;
+}
+
+.levers {
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 35%;
+}
+
+.main {
+    width: 35%;
+    display: inline-block;
+    border: 1px solid black;
+
+}
